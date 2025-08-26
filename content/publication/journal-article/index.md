@@ -29,6 +29,9 @@ tags:
 - Source Themes
 featured: false
 
+series:
+- Hongo
+
 hugoblox:
   ids:
     arxiv: 1512.04133v1

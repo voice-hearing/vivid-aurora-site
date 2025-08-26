@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: red
 
 # SEO
 marketing:
@@ -26,26 +26,49 @@ marketing:
     google: ''
     baidu: ''
 
+# Announcement shown above the header
+announcement:
+  enable: true
+  text: "🚀 New pre-print available – read it now!"
+  url:  "/publication/pre-print/"
+  
+# Tailwind: allow @apply inside <style> tags (needed once per site)
+tailwind:
+  compile_inline_css: true
+
 # Site header
 header:
   navbar:
     enable: true
     blox: "navbar"
-    fixed_to_top: true
+    button:
+      enable: true
+      text: "Donate"
+    fixed_to_top: false
     show_search: true
     show_theme_chooser: true
     logo:
+     # Logo filename in `assets/media/` folder
       text: "Your Name"
 
 # Site footer
 footer:
+  content:
+    logo:
+      text: HeLLO 
+    subtitle: HAVE WE ARRIVED YET?
+    tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+    subscribe: or not
+  design:
+    columns: 4
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} User. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  show_translations: true
 
 # Localization
 locale:
@@ -57,4 +80,16 @@ features:
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true
+extensions:
+  academicons:
+    enable: true
+
+features:
+  icons:
+    enable: true
+
+page:
+  toc: true
+
+toc: true

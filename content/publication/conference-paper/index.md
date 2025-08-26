@@ -32,8 +32,14 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
+categories:
+  - Hello
+
 tags:
   - Large Language Models
+
+series:
+  - Hongo
 
 # Display this page in the Featured widget?
 featured: true
@@ -43,21 +49,62 @@ hugoblox:
   ids:
     doi: 10.5555/123456
 
-# Custom links
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
-
+  # Test each icon pack separately
+  - name: "GitHub"
+    url: "#"
+    icon: "brands/github"
+    
+  - name: "Google Scholar"
+    url: "#"
+    icon: "brands/google-scholar"
+    
+  - name: "DOI"
+    url: "#"
+    icon: "academicons/doi"
+    
+  - name: "ORCID"
+    url: "#"
+    icon: "brands/orcid"
+    
+  - name: "Academic Cap"
+    url: "#"
+    icon: "hero/academic-cap"
+  
+  - name: "Paper PDF"
+    url: "/paper.pdf"  
+    icon: "hero/document-text"
+    
+  - name: "DOI Link"
+    url: "https://doi.org/10.1000/xyz"
+    icon: "academicons/doi"
+    
+  - name: "GitHub Code"
+    url: "https://github.com/user/repo"
+    icon: "brands/github"
+    
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=XXX"
+    icon: "brands/google-scholar"
+  - name: "PDF"
+    url: "publication/paper.pdf"
+    icon: "hero/document-text"
+    
+  - name: "DOI" 
+    url: "https://doi.org/10.1000/xyz"
+    icon: "hero/academic-cap"
+    
+  - name: "Code"
+    url: "https://github.com/user/repo"
+    icon: "hero/code-bracket"
+    
+  - name: "Dataset"
+    url: "https://zenodo.org/record/123456"
+    icon: "hero/calendar"
+    
+  - name: "Slides"
+    url: "publication/slides.pdf"
+    icon: "hero/presentation-chart-bar"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:

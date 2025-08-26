@@ -12,15 +12,71 @@ authors:
   - admin
   - Ted
 
+categories:
+  - Hello
+
 tags:
   - Academic
   - Hugo Blox
   - Markdown
+
+Series:
+  - Hongo
+
+links:
+  # Test each icon pack separately
+  - name: "GitHub"
+    url: "#"
+    icon: "brands/github"
+    
+  - name: "Google Scholar"
+    url: "#"
+    icon: "brands/google-scholar"
+    
+  - name: "DOI"
+    url: "#"
+    icon: "academicons/doi"
+    
+  - name: "ORCID"
+    url: "#"
+    icon: "brands/orcid"
+    
+  - name: "Academic Cap"
+    url: "#"
+    icon: "hero/academic-cap"
+  
+  - name: "Paper PDF"
+    url: "/paper.pdf"  
+    icon: "hero/document-text"
+    
+  - name: "DOI Link"
+    url: "https://doi.org/10.1000/xyz"
+    icon: "academicons/doi"
+    
+  - name: "GitHub Code"
+    url: "https://github.com/user/repo"
+    icon: "brands/github"
+    
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=XXX"
+    icon: "brands/google-scholar"
 ---
+
+<button type="submit">
+  <i class="fa-solid fa-envelope"></i> Email Us!
+</button>
 
 Welcome 👋
 
 {{< toc mobile_only=true is_open=true >}}
+{{< icon name="brands/github" >}} GitHub
+{{< icon name="academicons/doi" >}} DOI  
+{{< icon name="custom/twitter" >}} Demo
+{{< icon name="brands/github" >}} GitHub
+{{< icon name="academicons/doi" >}} DOI  
+
+<i class="fa-solid fa-circle-user">hello</i>
+
 
 ## Overview
 
